@@ -1,10 +1,11 @@
 #pragma once
+#pragma once
 #include <stdbool.h>
 
 /**
  * @brief Выводит число в двоичном виде
  * @param n_: Число
- * @param bits_: Кол-во выводимых бит 
+ * @param bits_: Кол-во выводимых бит
 */
 void PrintBin(const int n_, const char bits_);
 
@@ -26,7 +27,7 @@ bool CheckBit(const int val_, const int pos_);
 /**
  * @brief Устанавливает 1 в нужную позицию
  * @param val_: Число
- * @param pos_: Позиция 
+ * @param pos_: Позиция
  * @return Число в измененным битом
 */
 int SetBit(const int val_, const int pos_);
@@ -42,7 +43,7 @@ int UnsetBit(const int val_, const int pos_);
 /**
  * @brief Меняет бит в позиции на противоположный
  * @param val_: Число
- * @param pos_: Позиция 
+ * @param pos_: Позиция
  * @return Число с измененным битом
 */
 int SwitchBit(const int val_, const int pos_);
